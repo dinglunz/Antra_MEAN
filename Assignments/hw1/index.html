@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="signup-container">
+    <h1>Sign Up</h1>
+    <form action="#" method="post" class="signup-form">
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="first-name" class="visually-hidden">First Name</label>
+          <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+        </div>
+        <div class="form-group">
+          <label for="last-name" class="visually-hidden">Last Name</label>
+          <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group full-width">
+          <label for="mobile" class="visually-hidden">Mobile No.</label>
+          <input type="tel" id="mobile" name="mobile" placeholder="Mobile No." required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group full-width">
+          <label for="email" class="visually-hidden">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Email Address" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="password" class="visually-hidden">Password</label>
+          <input type="password" id="password" name="password" placeholder="Password" required>
+        </div>
+        <div class="form-group">
+          <label for="confirm-password" class="visually-hidden">Confirm Password</label>
+          <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+        </div>
+      </div>
+
+      <div class="form-terms">
+        <label class="agree-label">
+          <input type="checkbox" name="agree" required>
+          <b>I Agree</b>
+        </label>
+        <p class="terms-text">
+          By clicking <span class="term-register">Register</span>, you agree to the
+          <a href="#">Terms and Conditions</a> set out by this site, including our Cookie Use.
+        </p>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn btn-register">Register</button>
+        <button type="button" class="btn btn-signin">Sign In</button>
+      </div>
+
+    </form>
+  </main>
+
+</body>
+</html>
